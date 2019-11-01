@@ -1,0 +1,10 @@
+let total = 0;
+num = 5;
+// Ask the user for the value of 'n'
+// let num = prompt("Please, enter your number: ");
+
+for (let i = 0; i <= num; i++) {
+  total += i;  // total = total + i
+}
+
+console.log(`The sum of numbers from 0 to ${num} is: ${total} `);
